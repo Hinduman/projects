@@ -1,2 +1,2 @@
-# projects
-Coding thought me to try until i get it,which made me invincible from failures.
+# Enthusiastic developer
+Coding trains to get relevant algorithm/solution for given problem, which made me invincible from failures.
