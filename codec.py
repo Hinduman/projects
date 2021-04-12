@@ -16,8 +16,11 @@ which can be decoded only by using same secret key\n\n''')
 print('''First enter your choice, based on it answer the relevant question
 Choice 0:Encrypt the message
 Choice 1:Decrypt the number array\n''')
-choice=int(input('Choice 0/1??(Just enter the number):'))
-if choice:
-    print(func(input('Enter the number array leaving space between each digits:'),input('Your secret Key??:'),choice))
-else:
-    print(func(input('What is the message??:'),input('Your secret key??:'),choice))
+try:
+    choice=int(input('Choice 0/1??(Just enter the number):'))
+    if choice:
+        print(func(input('Enter the number array leaving space between each digits:'),input('Your secret Key??:'),choice))
+    else:
+        print(func(input('What is the message??:'),input('Your secret key??:'),choice))
+except(Exception ex):
+    print('Program not executed')
