@@ -22,5 +22,5 @@ try:
         print(func(input('Enter the number array leaving space between each digits:'),input('Your secret Key??:'),choice))
     else:
         print(func(input('What is the message??:'),input('Your secret key??:'),choice))
-except(Exception ex):
+except:
     print('Program not executed')
