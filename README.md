@@ -4,4 +4,4 @@ Following are Jupyter notebooks along with the business cases (I've not uploaded
 
 PRCP-1025.ipynb : This notebook predicts the price of the flight, by training the dataset with different ML models. (This is a Regression problem)
 
-PRCP-1007.ipynb : This notebook is predicting the patients who are having liver disease, through different trained ML models. (This is a Classification model)
+PRCP-1007.ipynb : This notebook is predicting the patients who are having liver disease, through different trained ML models. (This is a Classification problem)
